@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Ubuntu', sans-serif;
+}
+
+:root {
+    --red: #E50914;
+    --black: #000000;
+    --white: #ffffff;
+    --grey: rgba(255,255,255,0.7);
+}
+
+body {
+    background: var(--black);
+    color: var(--white);
+}
+
+.container {
+    max-width: 1140px;
+    margin: auto;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.bg {
+    background-image: url('../images/bg1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.divisoria {
+    height: 10px;
+    background-color: #292929;
+    margin: 80px 0px;
+}
+
+.logo img {
+    width: 150px;
+    height: 40px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-side select {
+    margin-right: 20px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid var(--black);
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background: rgba(0,0,0,0.7);
+}
+
+.button {
+    padding: 10px 20px;
+    background: var(--red);
+    color: var(--white);
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background: var(--black);
+    color: var(--red);
+}
+
+
+.text-banner {
+    color: var(--white);
+    text-align: center;
+    padding: 100px 0;
+    background: rgba(0,0,0,0.7);
+}
+
+.text-banner h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.text-banner h2 {
+    font-size: 1.7rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.text-banner h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.email-banner input {
+    padding: 10px 20px;
+    border: 1px solid var(--black);
+    border-radius: 4px;
+    margin-right: 10px;
+    padding-right: 100px;
+    background-color: rgba(0, 0, 0, .7);
+    color: var(--white);
+    font-size: 1.1rem;
+}
+
+.email-banner input::placeholder {
+    color: var(--grey);
+}
+
+.ad {
+    max-width: 1150px;
+    margin: auto;
+    background: rgb(14, 27, 79);
+    background: radial-gradient(
+        51.39% 511.66% at 47.68% -217.91%,
+        #ff9900 0%,
+        #e50914 17.27%,
+        #0e1b4f 79.44%,
+        #000413 100%
+    );
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -60px;
+}
+
+.ad img {
+    width: 150px;
+    height: 150px;
+}
+
+.text-pipoca {
+    color: var(--white);
+}
+
+.text-pipoca h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.text-pipoca h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.text-pipoca a{
+    font-size: 1.2rem;
+    color: #448ef4;
+    font-weight: 600;
+}
+
+.tv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tv-img img {
+    width: 100%;
+}
+
+.text-tv h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-tv p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.device-pile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.device-pile img {
+    width: 100%;
+}
+
+.text-device-pile h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.text-device-pile p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.device-pile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.infantil {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.infantil img {
+    width: 100%;
+}
+
+.infantil h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.infantil p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.mobile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.mobile img {
+    width: 100%;
+}
+
+.mobile h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.mobile p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.response {
+    display: none;
+}
+
+.faq h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 60px;
+}
+
+section dt {
+    background-color: #686868;
+    font-size: 1.5rem;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+section dt:hover {
+    background-color: #4d4d4d;
+}
+
+section dd {
+    background-color: #4d4d4d;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+
+.faq h3{
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.email-faq {
+    justify-content: center;
+    text-align: center;
+
+}
+ 
+.email-faq input {
+    padding: 10px 20px;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+    margin-right: 10px;
+    padding-right: 100px;
+    background-color: rgba(0, 0, 0, .7);
+    color: var(--white);
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+.footer-fone {
+    color: #999;
+} 
+
+.footer-fone span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px 0;
+    
+}
+
+.features a {
+    color: #999;
+    text-decoration: underline;
+    margin: 10px 0;
+}
+
+
+
+.back-side select {
+    margin-right: 20px;
+    padding: 5px 15px;
+    border-radius: 4px;
+    border: 1px solid var(--black);
+    background-color: transparent;
+    color: var(--white);
+    border: 1px solid var(--white);
+}
+
+footer p {
+    margin-top: 20px;
+    font-size: 0.9rem;
+    margin-bottom: 60px;
+    color: #999;
+}
+
+.faq .email-faq input::placeholder {
+    color: var(--grey);
+}
+
+.js-accordion dd {
+    display: none;
+
+}
+
+.js-accordion dt::after {
+    content: '+';
+    float: right;
+    font-size: 2rem;
+}  
+
+.js-accordion dt.active::after {
+    content: '-';
+
+}
+
+.js-accordion dd.active {
+    display: block;
+}
+
+
+
+
+
+
